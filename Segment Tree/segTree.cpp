@@ -63,7 +63,7 @@ class SegTree {
 	vector<T> tree;
 	F todo;
 public:
-	SegTree(int n, int VAL, const F& todo) {
+	SegTree(int n, F VAL, const F& todo) {
 		this->n = n;
 		this->VAL = VAL;
 		tree.assign(2 * n + 2, VAL);
